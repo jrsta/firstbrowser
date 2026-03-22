@@ -232,7 +232,7 @@ if __name__ == "__main__":
 
     # Exercise 1-2 to open a test file if no url is provided:
     if len(sys.argv) == 1:
-        body = open('/home/jstanton/browser_engineering/test.txt', 'r')
+        body = open('/home/jstanton/firstbrowser/test.txt', 'r')
         show(body)
     else:
         load(URL(sys.argv[1]))
